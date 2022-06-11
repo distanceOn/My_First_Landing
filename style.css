@@ -1,13 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
 }
-header {
+header{
     background-color: #1F2937;
     display: flex;
-    padding: 16px 15%;
-    
+    padding: 16px 25% 0 25%;  
 }
 .logo{
     flex: 1 1 auto;
@@ -23,10 +22,54 @@ header {
     display: flex;
     justify-content: flex-end;
     gap: 16px;
-    
 }
 a{
     text-decoration: none;
     color: #E5E7EB;
+}
+main{
+    display: flex;
+    flex-direction: column;
     
+}
+.top{
+    background-color: #1F2937;
+    display: flex;
+    padding: 4% 25%;
+    color: #F9FAF8;
+    gap: 16px;
+    
+}
+.left{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+}
+.p1{
+    font-size: 48px;
+    font-weight: 800;
+    flex-basis: 70%;
+    
+}
+.p2{
+    
+    font-size: 18px;
+    
+}
+.but_1{
+background-color: #3882f6;
+padding: 8px 36px;
+border: 1px solid transparent;
+border-radius: 6%;
+margin-top: 10px;
+
+
+}
+.img{
+    background-color: grey;
+    display: flex;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
 }
