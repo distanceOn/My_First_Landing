@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 0;
+    
     font-family: 'Roboto', sans-serif;
 }
 header{
@@ -61,7 +61,7 @@ main{
 background-color: #3882f6;
 padding: 8px 36px;
 border: 1px solid transparent;
-border-radius: 6%;
+border-radius: 5px;
 margin-top: 10px;
 
 
@@ -72,4 +72,91 @@ margin-top: 10px;
     flex: 1 1 100%;
     justify-content: center;
     align-items: center;
+}
+.second{
+    
+}
+h1{
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+.illus{
+    display: flex;
+    
+    gap: 45px;
+    justify-content: center;
+    padding: 0 0 100px 0;
+    
+}
+.ill{
+    
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    gap: 5px;
+}
+.ill img{
+    border: 1px solid #3882f6;
+    border-radius: 5%;
+    height: 150px;
+}
+.ill div{
+    text-align: center;
+}
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 24px;
+}
+.three{
+    
+    background-color: #E5E7EB;
+    
+}
+.three{
+    padding: 5% 29.1%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color:#1F2937 ;
+    
+}
+.pod{
+    margin-left: auto;
+    max-width: max-content;
+    font-weight: bold;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    background-color: #3882f6;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 50%;
+    padding: 30px 0;
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.p3{
+    font-weight: bold;
+}
+.but_2{
+    width: 120px;
+    color: white;
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 8px;
 }
